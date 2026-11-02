@@ -14,4 +14,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "PipBot3000"
 include(":app")
-
