@@ -24,7 +24,7 @@ jobs:
           gradle-version: '8.7'
 
       - name: Compile Debug APK
-        run: gradle assembleDebug -Pandroid.useAndroidX=true
+        run: gradle clean assembleDebug -Pandroid.useAndroidX=true
 
       - name: Package APK for Download
         uses: actions/upload-artifact@v4
