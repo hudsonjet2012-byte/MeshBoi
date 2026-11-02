@@ -31,7 +31,7 @@
             </intent-filter>
             <meta-data
                 android:name="android.accessibilityservice"
-                android:resource="@xml/droidbot_accessibility_config" />
+                android:resource="@xml/accessibility_config" />
         </service>
     </application>
 </manifest>
