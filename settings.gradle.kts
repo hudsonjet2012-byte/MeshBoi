@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "PipBot3000"
+rootProject.name = "MeshBoi"
 include(":app")
